@@ -60,7 +60,7 @@ function removeFixtures(models, fixturesPath, callback) {
       .then(res => {
 
         function removeData(data, next) {
-          models[fixtureName].deleteById(data._id)
+          models[fixtureName].deleteById(data.id)
             .then(() => next())
             .catch(err => {
               debug(err);
@@ -68,7 +68,7 @@ function removeFixtures(models, fixturesPath, callback) {
             });
         }
 
-        async.each(res, removeData, done);
+        async.each(res.rows, removeData, done);
         
       })
       .catch(err => {
