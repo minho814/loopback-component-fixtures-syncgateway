@@ -1,7 +1,7 @@
 {
   "name": "loopback-component-fixtures-couchbase",
   "description": "api",
-  "version": "v0.6.0",
+  "version": "0.6.1",
   "main": "index.js",
   "scripts": {
     "start": ""
@@ -23,9 +23,19 @@
     "isparta": "^4.0.0",
     "istanbul": "^0.4.4",
     "mocha": "^2.2.5",
-    "nodemon": "^1.9.2",
-    "sinon": "^1.17.4",
-    "sinon-chai": "^2.8.0",
     "supertest": "^1.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minho814/loopback-component-fixtures-couchbase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minho814/loopback-component-fixtures-couchbase/issues"
+  },
+  "homepage": "https://github.com/minho814/loopback-component-fixtures-couchbase#readme"
 }
