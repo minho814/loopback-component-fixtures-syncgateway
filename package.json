@@ -1,7 +1,7 @@
 {
-  "name": "loopback-component-fixtures-couchbase",
+  "name": "loopback-component-fixtures-syncgateway",
   "description": "api",
-  "version": "0.7.1",
+  "version": "0.5.0",
   "main": "index.js",
   "scripts": {
     "start": ""
@@ -30,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minho814/loopback-component-fixtures-couchbase.git"
+    "url": "git+https://github.com/minho814/loopback-component-fixtures-syncgateway.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/minho814/loopback-component-fixtures-couchbase/issues"
+    "url": "https://github.com/minho814/loopback-component-fixtures-syncgateway/issues"
   },
-  "homepage": "https://github.com/minho814/loopback-component-fixtures-couchbase#readme"
+  "homepage": "https://github.com/minho814/loopback-component-fixtures-syncgateway#readme"
 }

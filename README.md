@@ -1,4 +1,4 @@
-# loopback-component-fixtures-couchbase
+# loopback-component-fixtures-syncgateway
 ----------------------------
 ## Notes
 
@@ -10,7 +10,7 @@ This is a couchbase version of JonathanPrince's [loopback-component-fixtures](ht
 
 1. Install in you loopback project:
 
-  `npm install --save loopback-component-fixtures-couchbase`
+  `npm install --save loopback-component-fixtures-syncgateway`
 
 2. Create a component-config.json file in your server folder (if you don't already have one)
 
@@ -18,7 +18,7 @@ This is a couchbase version of JonathanPrince's [loopback-component-fixtures](ht
 
   ```json
   {
-    "loopback-component-fixtures-couchbase": {
+    "loopback-component-fixtures-syncgateway": {
       "{option}": "{value}"
     }
   }
